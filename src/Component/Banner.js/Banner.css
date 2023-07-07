@@ -1,0 +1,72 @@
+.banner{
+    background-image: url(./lap.jpg);
+    background-position-x: center;
+    flex-direction: column;
+    object-fit:cover;
+    background-size: cover;
+    height: 630px;
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    .banner{
+        height: 400px;
+    }
+}
+
+
+.fade{
+    padding-top: 20rem;
+    background-image: linear-gradient(180deg,transparent,rgb(0 0 0 / 0%),#000);
+}
+@media screen and (max-width: 1000px) {
+    .fade{
+        padding-top: unset;
+        height: 9.3rem;
+        background-image: linear-gradient(180deg,transparent,rgb(0 0 0 / 0%),#000);
+    }
+}@media screen and (max-width: 800px) {
+    .fade{
+        
+        height:57px;
+        padding-top: 0.1rem;
+        background-image: linear-gradient(180deg,transparent,rgb(0 0 0 / 0%),#000);
+    }
+}
+@media screen and (max-width: 400px) {
+    .fade{
+        height: 76px;
+        padding-top: 0.1rem;
+        background-image: linear-gradient(180deg,transparent,rgb(0 0 0 / 0%),#000);
+    }
+}
+.bio{
+    padding-top: 13rem;
+    font-size: 1.2rem;
+    margin-left: 6rem;
+}
+@media screen and (max-width: 2072px) {
+    .banner{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .bio{
+        padding-top: 10rem;
+        font-size: 1.1rem;
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .bio{
+        padding-top: 16rem;
+        font-size: 1rem;
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .bio{
+        padding-top: 16rem;
+        font-size: 0.9rem;
+        margin-left: 2rem;
+    }
+}

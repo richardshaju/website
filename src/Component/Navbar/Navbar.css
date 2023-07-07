@@ -1,0 +1,102 @@
+.navbar {
+    color: #fff;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.right {
+    float: left;
+    padding: 20px;
+    right: 3px;
+    position: fixed;
+    padding-top: 25px;
+}
+@media screen and (max-width: 460px) {
+    .right span{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .right {
+     padding: unset;
+     padding-top: 20px;
+    }
+}
+
+.right a{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    padding-left: 14px;
+    font-size: 28px;
+}
+@media screen and (max-width: 460px) {
+    .name {
+        padding-left: 4px;
+        font-size: 20px;
+    }
+}
+
+.left {
+
+    float: left;
+    padding: 14px;
+
+}
+
+.navbar li {
+    list-style: none;
+    padding-right: 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar li {
+        padding-right: 1rem;
+        display: flex;
+    }
+}
+@media screen and (max-width: 460px) {
+    .navbar li {
+        padding-right: 0.6rem;
+        display: flex;
+    }
+}
+.navbar ul {
+    display: flex;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.navbar li p {
+    display: inline-flex;
+    align-items: center;
+}
+@media screen and (max-width: 750px) {
+    .navbar li p{
+        display: none;
+    }
+}
+
+.active{
+    color: red;
+    font-weight: 700;
+}
+nav a:hover{
+    color: red;
+}
