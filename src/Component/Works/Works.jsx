@@ -26,7 +26,8 @@ function Works() {
           </a>
           <p style={{ paddingTop: "0.6rem" }}>
             Front-end : <b>Html, Css, Js</b> <br />
-            Web server : <b>Nginx</b><br />
+            Web server : <b>Nginx</b>
+            <br />
             Back-end : <b>Flask</b> <br />
             Cloud : <b>AWS</b> <br />
             ML Algorithm : <b>Support Vector Machine</b>
@@ -52,7 +53,6 @@ function Works() {
             FrameWorks : <b>Handlebars,ExpressJS,Bootstrap</b>{" "}
           </p>
         </div>
-      
       </div>
       <div className="works-display" style={{ marginBottom: "2rem" }}>
         <div className="item" style={{ textAlign: "center" }}>
@@ -77,24 +77,25 @@ function Works() {
           </p>
         </div>
         <div className="item" style={{ textAlign: "center" }}>
-          <img src={require("./netflix.JPG")} alt="" />
+          <img src={require("./car_price.png")} alt="" />
           <a
             class="link-icon"
-            href="https://richardshaju.github.io/netflix/"
+            href="http://ec2-16-16-209-112.eu-north-1.compute.amazonaws.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div class="item-title cart">
-              <span>Netflix-Clone</span>
+              <span>Used car price predictor</span>
               <i class="fa fa-external-link" aria-hidden="true"></i>
             </div>
           </a>
           <p style={{ paddingTop: "0.6rem" }}>
-            Back-end : <b>Nill</b> <br />
-            API used : <b>TMDB</b> <br />
-            FrameWorks : <b>ReactJS</b>
+            Web server : <b>Nginx</b>
             <br />
-            Front-end : <b>React,Css,Javascript</b> <br />
+            Back-end : <b>Flask</b> <br />
+            Cloud : <b>AWS</b> <br />
+            Front-end : <b>Html, Css, Js</b> <br />
+            ML Algorithm : <b>LinearRegression</b>
           </p>
         </div>
       </div>
@@ -132,6 +133,29 @@ function Works() {
           <p style={{ paddingTop: "0.6rem" }}>
             Front-end : <b>React JS</b> <br />
             Back-end : <b>Firebase</b>
+          </p>
+        </div>
+      </div>
+      <div className="works-display" style={{ marginBottom: "2rem" }}>
+        <div className="item" style={{ textAlign: "center" }}>
+          <img src={require("./netflix.JPG")} alt="" />
+          <a
+            class="link-icon"
+            href="https://richardshaju.github.io/netflix/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="item-title cart">
+              <span>Netflix-Clone</span>
+              <i class="fa fa-external-link" aria-hidden="true"></i>
+            </div>
+          </a>
+          <p style={{ paddingTop: "0.6rem" }}>
+            Back-end : <b>Nill</b> <br />
+            API used : <b>TMDB</b> <br />
+            FrameWorks : <b>ReactJS</b>
+            <br />
+            Front-end : <b>React,Css,Javascript</b> <br />
           </p>
         </div>
       </div>
