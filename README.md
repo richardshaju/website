@@ -1,2 +1,2 @@
 # My Portfolio 
-https://richardshaju.github.io/portfolio/
+https://richard.is-a.dev/
