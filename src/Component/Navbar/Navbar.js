@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react'
+import { IoHomeSharp } from "react-icons/io5";
+import { IoMdPerson } from "react-icons/io";
+import { MdDesignServices } from "react-icons/md";  
+import { MdHomeRepairService } from "react-icons/md";
+import { IoMail } from "react-icons/io5";
 import './Navbar.css'
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 function Navbar() {
 
     const [color, setColor] = useState('');
@@ -73,27 +77,29 @@ function Navbar() {
                     <ul>
                         <li >
                             <a href="#home" className='home'>
-                                <span className="material-symbols-outlined">home</span><p>Home</p>
+                            <IoHomeSharp size={20}size={20}
+                            
+                            /><p>Home</p>
                             </a>
                         </li>
                         <li >
                             <a href="#about" className='about'>
-                                <span className="material-symbols-outlined">person</span><p>About</p>
+                            <IoMdPerson size={20}/><p>About</p>
                             </a>
                         </li>
                         <li  >
                             <a href="#service" className='service'>
-                                <span className="material-symbols-outlined">design_services</span><p>Service</p>
+                            <MdDesignServices size={20}/><p>Service</p>
                             </a>
                         </li>
                         <li >
                             <a href="#work" className='work'>
-                                <span className="material-symbols-outlined">home_repair_service</span><p>Works</p>
+                            <MdHomeRepairService size={20}/><p>Works</p>
                             </a>
                         </li>
                         <li >
                             <a href="#contact" className='contact'>
-                                <span className="material-symbols-outlined">mail</span><p>Contact</p>
+                            <IoMail size={20} /><p>Contact</p>
                             </a>
                         </li>
                     </ul>
