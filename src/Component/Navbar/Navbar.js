@@ -77,7 +77,7 @@ function Navbar() {
                     <ul>
                         <li >
                             <a href="#home" className='home'>
-                            <IoHomeSharp size={20}size={20}
+                            <IoHomeSharp size={20}
                             
                             /><p>Home</p>
                             </a>
